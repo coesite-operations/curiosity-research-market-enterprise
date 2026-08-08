@@ -1,0 +1,22 @@
+{
+  "status": "refused-until-signed-assignment-offer-and-development-x402-asset",
+  "dryProcurement": "granted-for-explicit-test-contracts",
+  "liveProcurement": "refused",
+  "settledAwardDelivery": "active-read-only",
+  "leaderInputsStillRequired": [],
+  "remainingActivationWork": ["activate the research desk's signed exact supply-offer-delivery face", "admit one explicit eip155:31337 x402 payment asset and exact settlement verifier", "admit research providers only through their own authenticated offers"],
+  "evidence": {
+    "sovereignSettlementAccount": "eip155:31337:0xe662293eff16a94eff9faa45ce5733beea0a9250",
+    "accountBinding": "content/evm/accounts/eip155-31337.json",
+    "accountDeploymentTransaction": "0xa0887beecd1a3500d2d13ed3f39927b9da7e03905847d5015e6f6c973eb6b7e4",
+    "paymentProtocolProvider": "urn:ame:x402-services-section",
+    "paymentProtocolVersion": 2,
+    "paymentNetwork": "eip155:31337",
+    "paymentAsset": null,
+    "researchAssignmentProvider": "content/config/research-assignment-provider.json",
+    "settledAwardDeliveryAgent": "content/config/award-delivery-agent.json",
+    "settledAwardDeliveryLaw": "ni:///sha-256;WPZuOUwiR9VUT_ZPZJvtcidIjbYQfwvNfdxOI_feII4",
+    "runtime": "emsweb-curiosity-market-award-delivery-a2a.service"
+  },
+  "neverEvidence": "An account binding, development chain, assignment, award, settlement, or active read-only delivery face is not external money, revenue, a research finding, source warrant, reuse grant, NotebookLM artifact, or publication."
+}

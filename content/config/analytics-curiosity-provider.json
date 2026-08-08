@@ -1,0 +1,13 @@
+{
+  "type": "AnalyticsCuriosityOfferProviderBinding",
+  "status": "active",
+  "customer": "urn:ame:curiosity-research-market-enterprise",
+  "provider": "urn:ame:channel-analytics-interpretation-broker",
+  "purpose": "research-assignment-motivation-verification",
+  "agentUrl": "http://127.0.0.1:18458/.well-known/agent-card.json",
+  "agentCardIdentity": "ni:///sha-256;B5iNl2JoLtyOfc-VLAnNe_xDGMI0zuJC3rZCp7JrFmA",
+  "agentCardSignature": "ni:///sha-256;OpZRzHakKqIRIoT4OV_sFIjxhhDmbyNMN2hdPnr2ZfQ",
+  "contract": "ni:///sha-256;2mPiVr1TKgqj9SMBOIgXVmedmukxTYGGyoEZv5in7xw",
+  "boundAt": "2026-07-22T11:09:14.000Z",
+  "authorityWithheld": ["ambient-offer-list", "analytics-observations", "measurements", "raw-rows", "credentials", "research-assignment-authorship", "spending", "research-truth", "publication"]
+}

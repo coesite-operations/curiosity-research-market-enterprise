@@ -1,0 +1,12 @@
+{
+  "type": "YouTubeChannelResearchAssignmentProviderBinding",
+  "status": "active",
+  "customer": "urn:ame:curiosity-research-market-enterprise",
+  "provider": "urn:ame:youtube-channel-enterprise",
+  "purpose": "research-market-clearing",
+  "agentUrl": "http://127.0.0.1:18443/.well-known/agent-card.json",
+  "agentCardIdentity": "ni:///sha-256;Exvm7bRpjR-DOAgjwdT2L-RIvNY7z8YZawDxznzXWGE",
+  "contract": "ni:///sha-256;7mvCS783rB0rrZxRFYfWtTVcPVebnVPs0WneVaWmXNw",
+  "boundAt": "2026-07-22T03:16:36.000Z",
+  "authorityWithheld": ["ambient-assignment-list", "channel-filesystem", "payment", "market-clearing", "research-findings", "publication", "youtube-write"]
+}

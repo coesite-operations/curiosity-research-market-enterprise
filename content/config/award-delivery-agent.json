@@ -1,0 +1,20 @@
+{
+  "type": "SettledResearchAwardDeliveryAgentActivation",
+  "status": "active",
+  "desiredState": "enabled-active",
+  "serviceUnit": "emsweb-curiosity-market-award-delivery-a2a.service",
+  "host": "127.0.0.1",
+  "port": 18441,
+  "baseUrl": "http://127.0.0.1:18441",
+  "agentCard": "content/agent-cards/settled-award-delivery.json",
+  "signingKeyDataPath": "data/credentials/settled-award-delivery-agent-card.pkcs8.pem",
+  "publicJwks": "content/agent-cards/settled-award-delivery-jwks.json",
+  "signingKid": "curiosity-research-market-award-delivery-ed25519",
+  "algorithm": "EdDSA",
+  "agentCardIdentity": "ni:///sha-256;WkdtgBCjvSrB55ayPZt3NtTsv0_5MM6Y3ppGq0QVso0",
+  "agentCardSignature": "ni:///sha-256;qMu5Zy6SQImHiWGIgQoOKx_nP1PrjNxttsVr7ckZd3Q",
+  "boundAt": "2026-07-22T02:23:41.000Z",
+  "timeoutMs": 120000,
+  "customer": "urn:ame:relational-orientation-research-desk",
+  "authorityWithheld": ["ambient-award-list", "assignment", "offer", "settlement", "research", "source-truth", "transformation", "publication", "customer-write"]
+}

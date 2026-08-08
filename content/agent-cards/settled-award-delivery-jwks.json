@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "crv": "Ed25519",
+      "x": "E3SxHNw2esCoUd5O80K9SmH8QFkCmYwU0ihJ778uVjw",
+      "kty": "OKP",
+      "use": "sig",
+      "alg": "EdDSA",
+      "kid": "curiosity-research-market-award-delivery-ed25519"
+    }
+  ]
+}

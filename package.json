@@ -1,0 +1,32 @@
+{
+  "name": "@emsweb/curiosity-research-market-enterprise",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "Provider-neutral market for buyer-authored research assignments motivated by non-evidentiary curiosity candidates.",
+  "scripts": {
+    "check": "node --check src/market.mjs && node --check src/research-assignment-client.mjs && node --check src/analytics-curiosity-client.mjs && node --check src/supply-offer-client.mjs && node --check src/procurement.mjs && node --check src/a2a-procurement-executor.mjs && node --check src/serve-procurement-a2a.mjs && node --check src/award-delivery.mjs && node --check src/a2a-award-delivery-executor.mjs && node --check src/serve-award-delivery-a2a.mjs && node --check src/assignment-admission-delivery.mjs && node --check src/a2a-assignment-admission-executor.mjs && node --check src/serve-assignment-admission-a2a.mjs && node --check test/market.test.mjs && node --check test/research-assignment-client.test.mjs && node --check test/analytics-curiosity-client.test.mjs && node --check test/award-delivery.test.mjs",
+    "serve-award-delivery": "node src/serve-award-delivery-a2a.mjs",
+    "serve-procurement": "node src/serve-procurement-a2a.mjs",
+    "test": "node --test test/market.test.mjs test/research-assignment-client.test.mjs test/analytics-curiosity-client.test.mjs test/award-delivery.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-agent-card-discovery-service": "1.0.1",
+    "@red-cup-engineering/a2a-agent-card-key-service": "1.0.1",
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.0.5",
+    "@red-cup-engineering/a2a-rmn-part-service": "1.0.1",
+    "@red-cup-engineering/a2a-rmn-task-client-service": "1.1.1",
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.2",
+    "@red-cup-engineering/witness-journal-rdf-projection-service": "1.1.0"
+  },
+  "keywords": [
+    "sovereign-state-enterprise",
+    "research",
+    "market"
+  ],
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "ResearchAssignmentAdmissionDeliveryAgentActivation", "status": "active", "desiredState": "enabled-active", "serviceUnit": "emsweb-curiosity-market-assignment-admission-a2a.service",
+  "host": "127.0.0.1", "port": 18444, "baseUrl": "http://127.0.0.1:18444", "agentCard": "content/agent-cards/research-assignment-admission-delivery.json",
+  "signingKeyDataPath": "data/credentials/research-assignment-admission-agent-card.pkcs8.pem", "publicJwks": "content/agent-cards/research-assignment-admission-delivery-jwks.json", "signingKid": "curiosity-research-market-assignment-admission-ed25519", "algorithm": "EdDSA", "timeoutMs": 120000,
+  "customer": "urn:ame:relational-orientation-research-desk", "purpose": "research-supply-offer-formation", "contract": "pending-compiled-law-identity",
+  "agentCardIdentity": "ni:///sha-256;ttUz0Wb1om7XRGfcS4JHkF_bAfRN3WGklUx4cvrY-18", "agentCardSignature": "ni:///sha-256;vpfp3_0sczPIG1xElBAYX5Od2CPhJ2K2xSY0tU20zss", "boundAt": "2026-07-22T09:21:38.000Z",
+  "authorityWithheld": ["ambient-assignment-list", "offer-authorship", "market-clearing", "settlement", "research", "source-truth", "publication", "customer-write"]
+}
