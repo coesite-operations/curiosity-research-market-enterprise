@@ -4,16 +4,16 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/curiosity-research-market-enterprise
+WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/operations-services-section/services/market-services-section/services/curiosity-research-market-enterprise
 ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node src/serve-assignment-admission-a2a.mjs
-Environment=CURIOSITY_RESEARCH_MARKET_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/curiosity-research-market-enterprise/data
+Environment=CURIOSITY_RESEARCH_MARKET_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/operations-services-section/services/market-services-section/services/curiosity-research-market-enterprise/data
 Restart=on-failure
 RestartSec=5s
 NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
-ReadWritePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/curiosity-research-market-enterprise/data/a2a/tasks
+ReadWritePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/operations-services-section/services/market-services-section/services/curiosity-research-market-enterprise/data/a2a/tasks
 InaccessiblePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk
 ProtectKernelTunables=true
 ProtectKernelModules=true

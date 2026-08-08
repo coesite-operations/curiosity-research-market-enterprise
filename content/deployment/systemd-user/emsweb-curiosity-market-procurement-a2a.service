@@ -4,9 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/curiosity-research-market-enterprise
+WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/operations-services-section/services/market-services-section/services/curiosity-research-market-enterprise
 ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node src/serve-procurement-a2a.mjs
-Environment=CURIOSITY_RESEARCH_MARKET_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/curiosity-research-market-enterprise/data
+Environment=CURIOSITY_RESEARCH_MARKET_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/operations-services-section/services/market-services-section/services/curiosity-research-market-enterprise/data
 Environment=CURIOSITY_RESEARCH_MARKET_SETTLEMENT_ACCOUNT=eip155:31337:0xe662293eff16a94eff9faa45ce5733beea0a9250
 Environment=WITNESS_JOURNAL_RDF_AGENT=http://127.0.0.1:19764/.well-known/agent-card.json
 Restart=on-failure
@@ -15,7 +15,7 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
-ReadWritePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/curiosity-research-market-enterprise/data
+ReadWritePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/operations-services-section/services/market-services-section/services/curiosity-research-market-enterprise/data
 ProtectKernelTunables=true
 ProtectKernelModules=true
 ProtectKernelLogs=true
