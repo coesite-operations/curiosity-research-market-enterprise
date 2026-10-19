@@ -28,5 +28,9 @@
     "research",
     "market"
   ],
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coesite-operations/curiosity-research-market-enterprise.git"
+  }
 }
