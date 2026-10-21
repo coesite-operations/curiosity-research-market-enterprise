@@ -2,11 +2,11 @@
   "keys": [
     {
       "crv": "Ed25519",
-      "x": "E3SxHNw2esCoUd5O80K9SmH8QFkCmYwU0ihJ778uVjw",
+      "x": "_Ci59sLCd1COmhoGJ0pz3AgvZVOWcpntLZtSx23PgWs",
       "kty": "OKP",
       "use": "sig",
       "alg": "EdDSA",
-      "kid": "curiosity-research-market-award-delivery-ed25519"
+      "kid": "curiosity-research-market-award-delivery-ed25519-2026-10-21"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "agentCard": "content/agent-cards/settled-award-delivery.json",
   "signingKeyDataPath": "data/credentials/settled-award-delivery-agent-card.pkcs8.pem",
   "publicJwks": "content/agent-cards/settled-award-delivery-jwks.json",
-  "signingKid": "curiosity-research-market-award-delivery-ed25519",
+  "signingKid": "curiosity-research-market-award-delivery-ed25519-2026-10-21",
   "algorithm": "EdDSA",
   "agentCardIdentity": "ni:///sha-256;WkdtgBCjvSrB55ayPZt3NtTsv0_5MM6Y3ppGq0QVso0",
   "agentCardSignature": "ni:///sha-256;qMu5Zy6SQImHiWGIgQoOKx_nP1PrjNxttsVr7ckZd3Q",

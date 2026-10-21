@@ -1,1 +1,1 @@
-{"keys":[{"crv":"Ed25519","x":"m24WAHmdYEZv5oAtr5RGqpeo7cK38xkfq-z48OyGchQ","kty":"OKP","kid":"curiosity-research-market-procurement-ed25519","alg":"EdDSA","use":"sig"}]}
+{"keys":[{"crv":"Ed25519","x":"6dFyZE8aJOQJ_urejwTGV-Tq2BjS7YFsYX_WN_aNfpQ","kty":"OKP","kid":"curiosity-research-market-procurement-ed25519-2026-10-21","alg":"EdDSA","use":"sig"}]}
